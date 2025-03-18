@@ -28,4 +28,4 @@ describe('Valida Visualização dos produtos', () => {
         cy.contains('Produto D - 99.99').should('be.visible');
         cy.contains('Produto E - 59.99').should('be.visible');
     })
-})
+});
