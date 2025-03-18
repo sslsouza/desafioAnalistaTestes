@@ -31,7 +31,6 @@ describe('Valida Login', () => {
         cy.get(SUBMIT_BTN).click()
         cy.url().should('include', 'http://localhost:8080/dashboard')
         cy.contains('Bem-vindo ao Dashboard').should('be.visible')
-        
     })
 })
 
